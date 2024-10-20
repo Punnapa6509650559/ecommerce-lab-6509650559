@@ -1,0 +1,29 @@
+ PASS  __tests__/products.test.js
+  Product API Tests
+    GET /products
+      ✓ should return all products (25 ms)
+    GET /products/:id
+      ✓ should return a product by ID (15 ms)
+      ✓ should return 404 if product not found (3 ms)
+    POST /products
+      ✓ should add a new product (6 ms)
+      ✓ should update a product with partial data (5 ms)
+      ✓ should handle missing or undefined price in request body (8 ms)
+    PUT /products/:id
+      ✓ should update an existing product (7 ms)
+      ✓ should return 404 if product not found (3 ms)
+    DELETE /products/:id
+      ✓ should delete a product (8 ms)
+      ✓ should return 404 if product not found (2 ms)
+
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |     100 |      100 |     100 |     100 |                   
+ app.js   |     100 |      100 |     100 |     100 |                   
+----------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       10 passed, 10 total
+Snapshots:   0 total
+Time:        0.575 s, estimated 1 s
+Ran all test suites.
